@@ -1,0 +1,18 @@
+
+header {
+    font-family: 'Work Sans', sans-serif;
+    width: auto;
+}
+header .container {
+    display: flex;
+    justify-content: space-around;
+}
+header .container li a{
+    text-decoration: none;
+    /* display: inline; */
+}
+header .container ul li{
+    /* text-decoration: none; */
+    padding: 0px 14px 0px 14px;
+    display: inline;
+}
