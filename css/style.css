@@ -1,6 +1,6 @@
 
 header {
-    /* color:black; */
+    color:black;
     font-family: 'Work Sans', sans-serif;
     width: auto;
 }
@@ -17,4 +17,19 @@ header .container ul li{
     /* text-decoration: none; */
     padding: 0px 14px 0px 14px;
     display: inline;
+}
+nav ul li a{
+    color: black;
+    font-weight: bolder;
+}
+nav ul li a :hover{
+    color: yellow;
+}
+header{
+    padding: 20px 0px 0px 0px;
+}
+#uppersection {
+min-height: 800px;
+background: url('/assets/landscape.jpg') no-repeat;
+background-position: cover;
 }
