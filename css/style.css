@@ -1,5 +1,6 @@
 
 header {
+    /* color:black; */
     font-family: 'Work Sans', sans-serif;
     width: auto;
 }
@@ -8,6 +9,7 @@ header .container {
     justify-content: space-around;
 }
 header .container li a{
+     color: black;
     text-decoration: none;
     /* display: inline; */
 }
