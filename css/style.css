@@ -35,6 +35,40 @@ background: url('/assets/landscape.jpg') no-repeat;
 background-position: cover;
 }
 #formwrapper {
+    margin: 100px 0px 0px 0px;
     display: flex;
     justify-content: space-around;
+}
+#content h1{
+    margin: 0 auto;
+    color:white;
+    font-family: 'Work Sans', sans-serif;
+    align-content: center;
+}
+.dropdown  {
+    padding: 20px 120px 20px 120px;
+    border-radius: 4px;
+    border-style: none;
+    background-color: white;
+}
+#button {
+    padding: 20px 120px 20px 120px;
+    background-color:#356ad8;
+    border-radius: 4px;
+    border-style: none;
+    color: white;
+    font-weight: bolder;
+    margin: 0px 200px 0px 0px;
+
+}
+#heading h1{
+    text-align: center;
+    margin: 200px 0px 0px 0px;
+     font-weight: 900;
+}
+#content{ 
+    min-height: 500px;
+    display: flex;
+flex-direction: column;
+justify-content: space-around;
 }
