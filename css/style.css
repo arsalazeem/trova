@@ -70,9 +70,32 @@ background-position: cover;
     margin: 200px 0px 0px 0px;
      font-weight: 900;
 }
+#boxes h1{
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+     font-weight: 900;
+}
 #content{ 
     min-height: 500px;
     display: flex;
 flex-direction: column;
 justify-content: space-around;
+}
+.container #boxes {
+    margin:0px 0px 0px 0px;
+}
+.container #boxes .row {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.container #boxes .row .bottomtext {
+    font-weight: bold;
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+.container #boxes p {
+    color:blueviolet;
+    font-weight: bolder;
 }
