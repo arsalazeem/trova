@@ -1,4 +1,7 @@
 
+body {
+    font-family: 'Work Sans', sans-serif;
+}
 header {
     color:black;
     font-size: 18px;
@@ -50,6 +53,7 @@ background-position: cover;
     border-radius: 4px;
     border-style: none;
     background-color: white;
+    font-size: large;
 }
 #button {
     padding: 20px 120px 20px 120px;
@@ -61,7 +65,7 @@ background-position: cover;
     margin: 0px 200px 0px 0px;
 
 }
-#heading h1{
+#heading #middleheading{
     text-align: center;
     margin: 200px 0px 0px 0px;
      font-weight: 900;
