@@ -99,3 +99,20 @@ justify-content: space-around;
     color:blueviolet;
     font-weight: bolder;
 }
+#viewallbutton{
+    margin-top: 40px;
+    margin-left: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#viewallbutton button {
+    padding: 25px 100px 25px 100px;
+    background-color:#356ad8;
+    border-radius: 4px;
+    border-style: none;
+    color: white;
+    font-weight: bolder;
+    margin: 0px 200px 0px 0px;
+
+}
