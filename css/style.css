@@ -34,8 +34,8 @@ header{
 }
 #uppersection {
 min-height: 800px;
-background: url('/assets/landscape.jpg') no-repeat;
-background-position: cover;
+background-image: url('/assets/landscape.jpg');
+background-position: center;
 }
 #formwrapper {
     margin: 100px 0px 0px 0px;
