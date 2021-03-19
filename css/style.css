@@ -134,3 +134,57 @@ width: 5%;
 .socialicons a:hover{
     color:green;
  }
+.container  #partners {
+    display: flex;
+    justify-self: center;
+    margin-top:70px;
+    text-justify:inter-word;
+     background-color:whitesmoke;
+     width: 100%;
+     min-height: 450px;
+     /* margin: 0 auto; */
+     display: flex;
+     justify-content: space-around;
+}
+    
+.container  #partners   .partners_child{
+    padding: 50px 0px 0px 50px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     width: 15%;
+ }
+ .container #partners button{
+    
+    padding: 15px 80px 15px 80px;
+    background-color:#356ad8;
+    border-radius: 4px;
+    border-style: none;
+    color: white;
+    font-weight: bolder;
+ }
+ .container  #partners p{
+     font-size: 18px;
+     line-height: 1.5556;
+ 
+ }
+ .partners_child .partners_row{
+     display: flex;
+     justify-content: space-between;
+ }
+ .partners_child .partners_row img{
+border-radius: 10px;
+}
+.container #advantages{
+margin-top: 100px;
+text-align: center;
+}
+.container #advantages p{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.container #advantages #items_row{
+    margin:60px 0px 0px 0px;
+display: flex;
+justify-content: space-evenly;
+}
