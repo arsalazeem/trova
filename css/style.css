@@ -1,8 +1,9 @@
 
 body {
-    font-family: 'Work Sans', sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 header {
+   
     color:black;
     font-size: 18px;
     font-family: 'Work Sans', sans-serif;
@@ -37,6 +38,7 @@ position: relative;
 min-height: 800px;
 background-image: url('/assets/landscape.jpg');
 background-size: cover;
+/* background-clip: border-box; */
 }
 #formwrapper {
     margin: 100px 0px 0px 0px;
@@ -87,6 +89,7 @@ justify-content: space-around;
     margin:0px 0px 0px 0px;
 }
 .container #boxes .row {
+    /* width: 30%; */
     padding-top: 40px;
     display: flex;
     justify-content: space-around;
