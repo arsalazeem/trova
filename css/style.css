@@ -134,27 +134,31 @@ width: 5%;
 .socialicons a:hover{
     color:green;
  }
-.container  #partners {
+ .container_partners {
+    width: 100%;
+    min-height: 450px;
+    background-color:whitesmoke;
+    margin-top:70px;
+ }
+ 
+.container_partners  #partners {
     display: flex;
     justify-self: center;
-    margin-top:70px;
     text-justify:inter-word;
-     background-color:whitesmoke;
-     width: 100%;
-     min-height: 450px;
      /* margin: 0 auto; */
      display: flex;
      justify-content: space-around;
 }
     
-.container  #partners   .partners_child{
+.container_partners  #partners   .partners_child{
     padding: 50px 0px 0px 50px;
      display: flex;
      flex-direction: column;
      justify-content: space-between;
      width: 15%;
+     margin-bottom: 4px;
  }
- .container #partners button{
+ .container_partners #partners button{
     
     padding: 15px 80px 15px 80px;
     background-color:#356ad8;
@@ -163,7 +167,7 @@ width: 5%;
     color: white;
     font-weight: bolder;
  }
- .container  #partners p{
+ .container_partners  #partners p{
      font-size: 18px;
      line-height: 1.5556;
  
