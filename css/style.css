@@ -9,6 +9,10 @@ header {
     font-family: 'Work Sans', sans-serif;
     width: auto;
 }
+button{
+    outline: none;
+    cursor: pointer;
+}
 header .container {
     display: flex;
     justify-content: space-around;
