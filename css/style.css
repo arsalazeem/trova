@@ -3,8 +3,8 @@ body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 header {
-   
-    color:black;
+    
+    color:wheat;
     font-size: 18px;
     font-family: 'Work Sans', sans-serif;
     width: auto;
@@ -18,7 +18,7 @@ header .container {
     justify-content: space-around;
 }
 header .container li a{
-     color: black;
+     color:whitesmoke;
     text-decoration: none;
     /* display: inline; */
 }
@@ -28,7 +28,7 @@ header .container ul li{
     display: inline;
 }
 nav ul li a{
-    color: black;
+    color:wheat;
     font-weight: bolder;
 }
 nav ul li a :hover{
