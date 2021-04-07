@@ -40,7 +40,7 @@ header{
 #uppersection {
 position: relative;
 min-height: 800px;
-background-image: url('/assets/landscape.jpg');
+background-image: url('https://i.pinimg.com/originals/50/71/4a/50714ad946a602224cedc10357388c17.jpg');
 background-size: cover;
 /* background-clip: border-box; */
 }
