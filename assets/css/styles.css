@@ -361,6 +361,7 @@ img {
 }
 /* Section - Featured */
 .featured {
+  padding: 20px;
   font-size: 13px;
   font-size: 0.8125rem;
 }
